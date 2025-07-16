@@ -1,0 +1,235 @@
+{
+  "cpus": [
+    {
+      "id": "cpu1",
+      "name": "Intel Core i7-13700K",
+      "brand": "Intel",
+      "price": 409.99,
+      "image": "/src/assets/cpu-intel-i7.jpg",
+      "category": "cpu",
+      "specs": {
+        "cores": 16,
+        "threads": 24,
+        "baseClock": "3.4 GHz",
+        "boostClock": "5.4 GHz",
+        "cache": "30 MB",
+        "socket": "LGA1700",
+        "tdp": "125W",
+        "architecture": "Raptor Lake"
+      },
+      "description": "High-performance processor ideal for gaming and content creation with excellent single-threaded performance.",
+      "compatibility": ["LGA1700"],
+      "pros": ["Excellent gaming performance", "High core count", "Good overclocking potential"],
+      "cons": ["High power consumption", "Requires good cooling"]
+    },
+    {
+      "id": "cpu2",
+      "name": "AMD Ryzen 7 7800X3D",
+      "brand": "AMD",
+      "price": 449.99,
+      "image": "/src/assets/cpu-amd-ryzen7.jpg",
+      "category": "cpu",
+      "specs": {
+        "cores": 8,
+        "threads": 16,
+        "baseClock": "4.2 GHz",
+        "boostClock": "5.0 GHz",
+        "cache": "96 MB",
+        "socket": "AM5",
+        "tdp": "120W",
+        "architecture": "Zen 4"
+      },
+      "description": "Gaming-focused processor with 3D V-Cache technology for superior gaming performance.",
+      "compatibility": ["AM5"],
+      "pros": ["Best gaming performance", "3D V-Cache", "Good efficiency"],
+      "cons": ["Limited overclocking", "Higher price"]
+    }
+  ],
+  "gpus": [
+    {
+      "id": "gpu1",
+      "name": "NVIDIA RTX 4070 Ti",
+      "brand": "NVIDIA",
+      "price": 799.99,
+      "image": "/src/assets/gpu-rtx-4070ti.jpg",
+      "category": "gpu",
+      "specs": {
+        "memory": "12 GB GDDR6X",
+        "memoryClock": "21 Gbps",
+        "coreClock": "2310 MHz",
+        "boostClock": "2610 MHz",
+        "cudaCores": 7680,
+        "busWidth": "192-bit",
+        "tdp": "285W",
+        "architecture": "Ada Lovelace"
+      },
+      "description": "High-end graphics card perfect for 1440p gaming and content creation with ray tracing support.",
+      "compatibility": ["PCIe 4.0 x16", "PCIe 3.0 x16"],
+      "pros": ["Excellent 1440p performance", "Ray tracing", "DLSS 3.0"],
+      "cons": ["High power consumption", "Expensive"]
+    },
+    {
+      "id": "gpu2",
+      "name": "AMD Radeon RX 7800 XT",
+      "brand": "AMD",
+      "price": 649.99,
+      "image": "/src/assets/gpu-rx-7800xt.jpg",
+      "category": "gpu",
+      "specs": {
+        "memory": "16 GB GDDR6",
+        "memoryClock": "19.5 Gbps",
+        "coreClock": "1295 MHz",
+        "boostClock": "2430 MHz",
+        "streamProcessors": 3840,
+        "busWidth": "256-bit",
+        "tdp": "263W",
+        "architecture": "RDNA 3"
+      },
+      "description": "Powerful GPU for 1440p gaming with excellent price-to-performance ratio.",
+      "compatibility": ["PCIe 4.0 x16", "PCIe 3.0 x16"],
+      "pros": ["Great value", "16GB VRAM", "Good rasterization"],
+      "cons": ["Weaker ray tracing", "Higher power draw"]
+    }
+  ],
+  "motherboards": [
+    {
+      "id": "mb1",
+      "name": "ASUS ROG Strix Z790-E",
+      "brand": "ASUS",
+      "price": 449.99,
+      "image": "/src/assets/motherboard-asus-z790.jpg",
+      "category": "motherboard",
+      "specs": {
+        "socket": "LGA1700",
+        "chipset": "Z790",
+        "formFactor": "ATX",
+        "memorySlots": 4,
+        "maxMemory": "128 GB",
+        "memoryType": "DDR5",
+        "pciSlots": "3x PCIe 5.0 x16, 1x PCIe 4.0 x16",
+        "storage": "4x M.2, 6x SATA",
+        "networking": "2.5Gb Ethernet, WiFi 6E"
+      },
+      "description": "Premium motherboard with excellent features for high-end builds and overclocking.",
+      "compatibility": ["LGA1700", "DDR5"],
+      "pros": ["Excellent VRM", "WiFi 6E", "Good I/O"],
+      "cons": ["Expensive", "Large size"]
+    },
+    {
+      "id": "mb2",
+      "name": "MSI MAG B650 Tomahawk",
+      "brand": "MSI",
+      "price": 189.99,
+      "image": "/src/assets/motherboard-msi-b650.jpg",
+      "category": "motherboard",
+      "specs": {
+        "socket": "AM5",
+        "chipset": "B650",
+        "formFactor": "ATX",
+        "memorySlots": 4,
+        "maxMemory": "128 GB",
+        "memoryType": "DDR5",
+        "pciSlots": "2x PCIe 5.0 x16, 1x PCIe 4.0 x16",
+        "storage": "2x M.2, 6x SATA",
+        "networking": "1Gb Ethernet"
+      },
+      "description": "Solid mid-range motherboard with good features for most builds.",
+      "compatibility": ["AM5", "DDR5"],
+      "pros": ["Good value", "Solid VRM", "Good feature set"],
+      "cons": ["No WiFi", "Limited PCIe slots"]
+    }
+  ],
+  "memory": [
+    {
+      "id": "ram1",
+      "name": "G.Skill Trident Z5 Neo 32GB",
+      "brand": "G.Skill",
+      "price": 189.99,
+      "image": "/src/assets/ram-gskill-trident.jpg",
+      "category": "memory",
+      "specs": {
+        "capacity": "32 GB",
+        "kit": "2x16GB",
+        "type": "DDR5",
+        "speed": "6000 MHz",
+        "timings": "CL30-40-40-96",
+        "voltage": "1.35V",
+        "heatspreader": "Yes",
+        "rgb": "Yes"
+      },
+      "description": "High-performance DDR5 memory optimized for AMD Ryzen processors.",
+      "compatibility": ["DDR5", "AMD EXPO", "Intel XMP"],
+      "pros": ["High speed", "Good timings", "RGB lighting"],
+      "cons": ["Expensive", "Tall heatspreader"]
+    },
+    {
+      "id": "ram2",
+      "name": "Corsair Vengeance LPX 32GB",
+      "brand": "Corsair",
+      "price": 129.99,
+      "image": "/src/assets/ram-corsair-vengeance.jpg",
+      "category": "memory",
+      "specs": {
+        "capacity": "32 GB",
+        "kit": "2x16GB",
+        "type": "DDR4",
+        "speed": "3200 MHz",
+        "timings": "CL16-18-18-35",
+        "voltage": "1.35V",
+        "heatspreader": "Yes",
+        "rgb": "No"
+      },
+      "description": "Reliable DDR4 memory with good performance and value.",
+      "compatibility": ["DDR4", "Intel XMP"],
+      "pros": ["Good value", "Reliable", "Low profile"],
+      "cons": ["DDR4 only", "No RGB"]
+    }
+  ],
+  "storage": [
+    {
+      "id": "ssd1",
+      "name": "Samsung 980 PRO 2TB",
+      "brand": "Samsung",
+      "price": 149.99,
+      "image": "/src/assets/ssd-samsung-980pro.jpg",
+      "category": "storage",
+      "specs": {
+        "capacity": "2 TB",
+        "type": "NVMe SSD",
+        "formFactor": "M.2 2280",
+        "interface": "PCIe 4.0 x4",
+        "readSpeed": "7000 MB/s",
+        "writeSpeed": "5100 MB/s",
+        "endurance": "1200 TBW",
+        "warranty": "5 years"
+      },
+      "description": "High-performance NVMe SSD with excellent speeds for gaming and professional work.",
+      "compatibility": ["M.2 2280", "PCIe 4.0", "PCIe 3.0"],
+      "pros": ["Excellent performance", "Good endurance", "5-year warranty"],
+      "cons": ["Higher price", "No heatsink included"]
+    }
+  ],
+  "psu": [
+    {
+      "id": "psu1",
+      "name": "Corsair RM850x",
+      "brand": "Corsair",
+      "price": 149.99,
+      "image": "/src/assets/psu-corsair-rm850x.jpg",
+      "category": "psu",
+      "specs": {
+        "wattage": "850W",
+        "efficiency": "80+ Gold",
+        "modular": "Fully Modular",
+        "fanSize": "135mm",
+        "protection": "OCP, OVP, SCP, UVP",
+        "warranty": "10 years",
+        "cables": "All black sleeved"
+      },
+      "description": "High-quality fully modular power supply with excellent efficiency and reliability.",
+      "compatibility": ["ATX", "Standard PSU mounting"],
+      "pros": ["Fully modular", "10-year warranty", "Quiet operation"],
+      "cons": ["Higher price", "Large size"]
+    }
+  ]
+}
